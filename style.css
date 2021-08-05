@@ -1,0 +1,75 @@
+body {
+  background-color: #000000;
+  color: white;
+  margin: 0;
+}
+
+#page {
+  text-align: center;
+  position: absolute;
+  top: 35px;
+  width: 100%;
+}
+
+.entry {
+  margin: 8px;
+}
+
+.entry-image {
+  max-height: 800px;
+  max-width: 600px;
+}
+
+#ad {
+  position: absolute;
+  right: 6px;
+}
+
+#ad:link, #ad:visited {
+  color: black;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#ad:link:active, #ad:visited:active {
+  color: #333333;
+}
+
+#nav {
+  background-color: #dfdfdf;
+  margin-bottom: 12px;
+  padding: 12px;
+  border-bottom: 1px solid #acacac;
+  text-align: center;
+  position: fixed;
+  width: calc(100% - 24px);
+}
+
+.disney {
+  display: var(--disney-visibility)
+}
+
+.pixar {
+  display: var(--pixar-visibility)
+}
+
+.marvel {
+  display: var(--marvel-visibility)
+}
+
+.star-wars {
+  display: var(--star-wars-visibility)
+}
+
+.entry-title {
+  font-weight: bold;
+  font-size: 72px;
+}
+
+.entry-release {
+  font-size: 36px;
+}
+
+.entry-description {
+  font-size: 24px;
+}
