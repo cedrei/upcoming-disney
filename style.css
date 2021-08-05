@@ -20,6 +20,10 @@ body {
   max-width: 600px;
 }
 
+#nav {
+  color: black;
+}
+
 #ad {
   position: absolute;
   right: 6px;
